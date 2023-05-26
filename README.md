@@ -7,7 +7,7 @@ this step. Here is a global comparison of default style, new style and
 colorblind style, each time displaying along the same graph without
 the colors:
 
-<img src="https://github.com/RichardSartori/CBPlot/figures/compare_all.pdf" width="960">
+<img src="https://github.com/RichardSartori/CBPlot/blob/master/figures/compare_all.pdf" width="960">
 
 # Usage
 
@@ -18,7 +18,7 @@ for i in range(3):
 	plt.plot(X, Y)
 ```
 will plot:
-<img src="https://github.com/RichardSartori/CBPlot/figures/default.pdf" width="400">
+<img src="https://github.com/RichardSartori/CBPlot/blob/master/figures/default.pdf" width="400">
 
 ```python
 import styles
@@ -30,4 +30,4 @@ for i in range(3):
 	plt.plot(X, Y, **style)
 ```
 will plot:
-<img src="https://github.com/RichardSartori/CBPlot/figures/using_styles.pdf" width="400">
+<img src="https://github.com/RichardSartori/CBPlot/blob/master/figures/using_styles.pdf" width="400">
